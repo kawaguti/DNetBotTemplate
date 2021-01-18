@@ -23,9 +23,9 @@ on:
 # These Variables Change based on the Environment you are 
 # deploying to. You also need to set the secrets above.
 env:
-    DNETBOT_NAME: 'discordnetbotkawaguti'                                                   # DNet Bot Naming Prefix for Resources (Lowercase, No Spaces or Special Characters)
+    DNETBOT_NAME: 'discordnetbotkwgt'                                                   # DNet Bot Naming Prefix for Resources (Lowercase, No Spaces or Special Characters)
     DOTNET_VERSION: '3.1.403'                                                       # SDK Version to use
-    AZURE_LOCATION: 'japaneast'                                                        # Resource Location
+    AZURE_LOCATION: 'southeastasia'                                                        # Resource Location
     AZURE_RG: 'Discord'                                                         # Resource Group Name to use
     AZURE_WEB_SKU: 'B1'                                                             # Size of the WebApp to deploy
 
